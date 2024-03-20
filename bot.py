@@ -20,7 +20,7 @@ async def on_message(message):
         await message.channel.send("Selam!")
     elif message.content.startswith('bye'):
         await message.channel.send("görüşürüz")
-    elif message.content.startswith('bye'):
+    elif message.content.startswith('pass'):
         import random
 
         def gen_pass(pass_length):
